@@ -1,0 +1,28 @@
+@media screen and (min-width: 750px) {
+
+/****************TOP SECTION***************/
+
+	.name {
+		text-align: right;
+	}
+
+/*************BOTTOM SECTION***************/
+
+	.col-4 {
+		width: 47.5%;
+	}
+
+	.img-project3,
+	.img-project {
+		max-width: 100%;
+	}
+
+	.project1 {
+		margin-right: 5%;
+	}
+
+	.project3 {
+		width: 47.5%;
+		margin: 0 26.25%;
+	}
+}

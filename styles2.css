@@ -1,0 +1,116 @@
+/* styles for mobile first*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+
+/******************ALL SECTIONS*************/
+
+.container {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row {
+	width: 100%;
+}
+
+/******************TOP SECTION**************/
+
+.name,
+.logo {
+	text-align: center;
+}
+
+.img-logo {
+	max-width: 50%;
+	max-height: 50%;
+}
+
+h1 {
+	/*for the font shorthand, I would need to provide a font-size as well for the shorthand to work, which is why I'm not using shorthand here. */
+	color: #b12265;
+	font-weight: bold;
+	font-family: 'Rock Salt', cursive;
+	margin: 0;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+hr {
+	width: 100%;
+}
+
+
+/***************MAIN SECTION****************/
+
+.body {
+	margin-top: 8px;
+}
+
+.img-main {
+	max-width: 100%;
+	/*border-top: 3px solid #b12265;
+	border-bottom: 3px solid #b12265;*/
+	/*originally I had the above, changed due to review #1*/
+	border-width: 3px 0;
+	border-style: solid;
+	border-color: #b12265;
+}
+
+/*****************BOTTOM SECTION*************/
+
+.bottom {
+	background-color: #e3fbfd;
+	border-bottom: 3px solid #b12265;
+}
+
+.col-12 {
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	text-decoration: underline;
+}
+
+.col-4 {
+	width: 100%;
+	text-align: center;
+	color: #0f0f0f;
+}
+
+.img-project {
+	max-width: 100%;
+}
+
+h2 {
+	margin: 0;
+	padding: 15px 0 25px ;
+}
+
+a:link {
+	text-decoration: none;
+	color: #0f0f0f;
+}
+
+a:hover {
+	color: #b12265;
+}
+
+/*****************FOOTER**************************/
+
+p {
+	font-weight: bold;
+}
+
+.contact {
+	text-align: center;
+}
